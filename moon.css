@@ -108,7 +108,12 @@ body {
   animation-fill-mode: both;
   animation-delay: 45s;
 }
-
+.name9 a {
+  color: #f3f0ae;;
+  text-decoration: none;
+  transition: auto;
+  text-shadow: 2px 2px 2px #e0cccc
+}
 
 .new-moon {
   align-self: center;
