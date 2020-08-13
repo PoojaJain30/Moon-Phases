@@ -1,0 +1,189 @@
+html,body {
+  height:100%; 
+  background-color:#091246;
+}
+body {
+    display:flex;
+    justify-content:center;
+}
+.moon-container {
+ display:flex;
+ align-items: center;
+ flex-direction: column;
+ height:100%;
+ width:70%;
+ margin-top:5%;
+}
+
+.row {
+  display:flex;
+  width:80%;
+  align-content: space-between;
+}
+.row1 {
+  justify-content:center;
+}
+.row2 {
+  justify-content:space-evenly;
+}
+.row3 {
+  width:85%;
+  justify-content:space-between;
+}
+.moon {
+  width:120px;
+  height:120px;
+  border-radius:50%;
+  opacity: 0;
+  animation-name: fadeIn;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+}
+.moon-phase {
+  color:#f3f0ae;
+  font-size: 28px;
+  font-family: fantasy;
+  padding-bottom: 3%;
+  display:flex;
+  justify-content:center;
+  flex-direction:column;
+  width:240px;
+  height:180px;
+  background-color:transparent;
+  box-shadow:inset 0px 0px 20px 0px #f5f3ce;
+}
+
+.name {
+  align-self: center;
+  height:0;
+  visibility:hidden;
+  animation-name: fadeIn1;
+  animation-duration: 6s;
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+}
+.name1 {
+  animation-delay: 5s;
+}
+.name2 {
+  animation-delay: 10s;
+}
+.name3 {
+    animation-delay: 15s;
+}
+.name4 {
+    animation-delay: 20s;
+}
+.name5 {
+    animation-delay: 25s;
+}
+.name6 {
+    animation-delay: 30s;
+}
+.name7 {
+    animation-delay: 35s;
+}
+.name8 {
+    animation-delay: 40s;
+}
+.name9 {
+  align-self: center;
+  height:0;
+  visibility:hidden;
+  animation-name: fadeOut;
+  animation-duration: 6s;
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+  animation-delay: 45s;
+}
+
+
+.new-moon {
+  align-self: center;
+  background-color:transparent;
+  box-shadow:inset 0px 0px 6px 0px #f5f3ce4f;
+  animation-delay: 5s;
+}
+
+.waxing-cre {
+  margin-right: 30%;
+    margin-top: 2%;
+  background-color:transparent;
+  box-shadow: inset -12px 0px #F5F3CE, inset 0px 0px 6px 0px #f5f3ce4f;
+  animation-delay: 10s;
+}
+
+.first-quater {
+  box-shadow:inset 0px 0px 6px 0px #f5f3ce4f;
+  background: linear-gradient( -90deg,#F5F3CE 50%,transparent 50% );
+  animation-delay: 15s;
+}
+.waxing-gib {
+  margin-top: 2%;
+  background-color:#F5F3CE;
+  box-shadow: inset 20px 0px #091246eb, inset 0px 0px 6px 0px #f5f3ce4f;
+  animation-delay: 20s;
+}
+.full-moon {
+  align-self: center;
+  background-color:#F5F3CE;
+  box-shadow:inset 0px 0px 6px 0px #f5f3ce4f;
+  animation-delay: 25s;
+}
+
+.wanning-gib {
+  background-color:#F5F3CE;
+  box-shadow: inset -20px 0px #091246eb, inset 0px 0px 6px 0px #f5f3ce4f;
+  animation-delay: 30s;
+}
+
+.third-quater {
+  box-shadow:inset 0px 0px 6px 0px #f5f3ce4f;
+  background: linear-gradient( 90deg,#F5F3CE 50%,transparent 50% );
+  animation-delay: 35s;
+}
+
+.wanning-cre {
+  margin-right: 30%;
+    margin-bottom: 2%;
+  background-color:transparent;
+  box-shadow: inset 12px 0px #F5F3CE,inset 0px 0px 6px 0px #f5f3ce4f;
+  animation-delay: 40s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn1 {
+   0% {
+    opacity: 0;
+  }
+  50% {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  100% {
+    opacity:0;
+  }
+  
+}
+
+@keyframes fadeOut {
+    from {
+      opacity: 0;
+    }
+    
+    to {
+      opacity: 1;
+      visibility: visible;
+    }
+  }
