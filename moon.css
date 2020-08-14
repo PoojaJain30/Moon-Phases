@@ -15,6 +15,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  flex-direction: column;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
@@ -44,9 +45,9 @@ body {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  height: 100%;
+  /*height: 100%;*/
   width: 70%;
-  margin-top: 5%;
+  margin-top: 1%;
 }
 
 .row {
@@ -189,7 +190,6 @@ body {
 
 .name9 a {
   color: #f3f0ae;
-  ;
   text-decoration: none;
   -webkit-transition: auto;
   -o-transition: auto;
@@ -275,6 +275,33 @@ body {
   -webkit-animation-delay: 40s;
   animation-delay: 40s;
 }
+
+@media only screen and (max-width: 480px) {
+  .moon-container {
+    width:100%;
+  }
+  .moon {
+    width: 80px;
+    height: 80px;
+  }
+  .row {
+    width: 100%;
+  }
+  .moon-phase {
+    width:120px;
+    height: 80px;
+    font-size: 16px;
+  }
+  .row3 {
+    width: 100%;
+  }
+} 
+
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+  .moon-container {
+    width:100%;
+  }
+} 
 
 @-webkit-keyframes fadeIn {
   from {
