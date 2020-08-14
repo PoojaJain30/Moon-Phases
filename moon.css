@@ -95,7 +95,7 @@ body {
 .moon-phase {
   color: #f3f0ae;
   font-size: 28px;
-  font-family: fantasy;
+  font-family: serif;
   padding-bottom: 3%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -171,9 +171,8 @@ body {
 }
 
 .name9 {
-  -ms-flex-item-align: center;
-  -ms-grid-row-align: center;
-  align-self: center;
+  text-align: center;
+  margin-bottom: 14%;
   height: 0;
   visibility: hidden;
   -webkit-animation-name: fadeOut;
@@ -222,8 +221,8 @@ body {
 .first-quater {
   -webkit-box-shadow: inset 0px 0px 6px 0px #f5f3ce4f;
   box-shadow: inset 0px 0px 6px 0px #f5f3ce4f;
-  background: -webkit-gradient(linear, right top, left top, color-stop(50%, #F5F3CE), color-stop(50%, transparent));
   background: -o-linear-gradient(right, #F5F3CE 50%, transparent 50%);
+  background: -webkit-gradient(linear, right top, left top, color-stop(50%, #F5F3CE), color-stop(50%, transparent));
   background: linear-gradient(-90deg, #F5F3CE 50%, transparent 50%);
   -webkit-animation-delay: 15s;
   animation-delay: 15s;
@@ -260,8 +259,8 @@ body {
 .third-quater {
   -webkit-box-shadow: inset 0px 0px 6px 0px #f5f3ce4f;
   box-shadow: inset 0px 0px 6px 0px #f5f3ce4f;
-  background: -webkit-gradient(linear, left top, right top, color-stop(50%, #F5F3CE), color-stop(50%, transparent));
   background: -o-linear-gradient(left, #F5F3CE 50%, transparent 50%);
+  background: -webkit-gradient(linear, left top, right top, color-stop(50%, #F5F3CE), color-stop(50%, transparent));
   background: linear-gradient(90deg, #F5F3CE 50%, transparent 50%);
   -webkit-animation-delay: 35s;
   animation-delay: 35s;
