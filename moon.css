@@ -96,6 +96,7 @@ body {
 
 .moon-phase {
   color: #f3f0ae;
+  text-align: center;
   font-size: 28px;
   font-family: serif;
   padding-bottom: 3%;
@@ -179,9 +180,9 @@ body {
   visibility: hidden;
   -webkit-animation-name: fadeOut;
   animation-name: fadeOut;
-  -webkit-animation-duration: 6s;
-  animation-duration: 6s;
-  -webkit-animation-iteration-count: 1;
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-iteration-count: infinite;
   animation-iteration-count: 1;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
